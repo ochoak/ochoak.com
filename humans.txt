@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> Inaki lanz salom <role> Senior Front-End Web Developer and UX Designer <twitter> @ochoak_
+
+# THANKS
+
+    gogle
+    cats
+    
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr

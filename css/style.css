@@ -1,0 +1,285 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.375em;
+}
+/* 22 / 16*/
+h2,
+h3 {
+  margin: 0 0 .5em 0;
+  padding: 0;
+  font-size: 1.0625em;
+}
+/* 18 / 16*/
+h2.education {
+  background: url('../images/education.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto 95%;
+  padding-left: 1.75em;
+}
+h2.languages {
+  background: url('../images/languajes.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto 95%;
+  padding-left: 1.75em;
+}
+h2.prof_exp {
+  background: url('../images/prof_exp.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto 95%;
+  padding-left: 1em;
+}
+h3.capabilities {
+  background: url('../images/capabilities.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto 95%;
+  padding-left: 1.5em;
+}
+h3.skills {
+  background: url('../images/skills.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto 95%;
+  padding-left: 1.5em;
+}
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+#nav {
+  padding: .75em 1.5em;
+  background-color: #000;
+  overflow: hidden;
+}
+#nav ul {
+  float: left;
+  margin: auto;
+}
+#nav ul li {
+  float: left;
+  margin-right: 2em;
+  font-size: 0.875em;
+  /* 14 / 16*/
+
+}
+#nav a {
+  color: #999;
+  text-decoration: none;
+}
+#nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+#nav a.active {
+  color: #fff;
+}
+#footer {
+  padding: 0 6em;
+  font-size: 0.625em;
+  /* 10 / 16*/
+
+}
+#footer p {
+  text-align: right;
+}
+#device {
+  float: right;
+  color: #bbbbbb;
+  font-size: 0.8125em;
+  /* 14 / 16*/
+}
+#device.desktop {
+  display: none;
+  padding: .4em 0.5em .4em 2.5em;
+  background: url('../images/175-macbook.png');
+  background-position: 1% 50%;
+  background-repeat: no-repeat;
+}
+#device.mobile {
+  display: none;
+  padding: .4em 0.5em .4em 2em;
+  background: url('../images/32-iphone.png');
+  background-position: 1% 50%;
+  background-repeat: no-repeat;
+}
+#device.tablet {
+  display: none;
+  padding: .4em 0.5em .4em 2.5em;
+  background: url('../images/176-ipad.png');
+  background-position: 1% 50%;
+  background-repeat: no-repeat;
+}
+#wrapper {
+  margin: 10px auto 0 auto;
+  width: 93.75%;
+  /* 960px / 1024px */
+
+}
+#content {
+  overflow: hidden;
+  padding: 20px 20px 0px 20px;
+  color: #333333;
+}
+#content a {
+  color: #0088cc;
+  text-decoration: none;
+}
+#content a:hover {
+  text-decoration: underline;
+}
+/*
+pseudo grid:
+	col1: 20%
+	col2:40%
+*/
+#content .col1 {
+  float: left;
+  width: 18%;
+  padding: .5em;
+  margin-right: 0%;
+  background-color: #eee;
+  clear: left;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+#content .col2 {
+  float: right;
+  width: 78%;
+  padding: .5em;
+  margin-left: 0%;
+  background-color: #eee;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+#content .flag {
+  background: #b4d92a;
+}
+ul.aboutMe li {
+  font-size: 0.875em;
+  /* 14 / 16*/
+
+}
+ul.aboutMe li.role {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-style: italic;
+}
+#contenText {
+  overflow: hidden;
+  margin: 0;
+}
+#contenText p {
+  margin: 0 0 1em 0;
+}
+.imgBox {
+  float: left;
+  width: 18.11%;
+  /* 206 / 1024*/
+
+  padding: 2px;
+  margin: 0 10px 10px 0;
+  background-color: #fff;
+  border: solid 1px #ccc;
+}
+.imgBox img {
+  max-width: 100%;
+}
+/*resume*/
+#content.resume {
+  background: none;
+}
+#content.resume section {
+  margin-bottom: 1em;
+}
+#content.resume .blocks {
+  width: 45%;
+  margin-right: 5%;
+  float: left;
+}
+#content.resume ul li {
+  font-size: 0.9375em;
+  /* 15/16*/
+
+  padding-left: 1em;
+}
+#content.resume ul.aboutMe li {
+  padding-left: 0em;
+}
+#content.resume ul.resume {
+  background-color: #b4d92a;
+  border-radius: 5px;
+  padding: .5em;
+  float: left;
+  width: auto;
+}
+#content.resume ul.resume li {
+  padding-left: 1.5em;
+  background: url('../images/icono-mini-archivo-pdf.gif');
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+/* media */
+@media screen and (max-width: 480px) {
+  #nav {
+    padding-right: 0px;
+  }
+  #device.mobile {
+    display: block;
+    font-size: 0.75em;
+    /* 12 / 16*/
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  #device.tablet {
+    display: block;
+  }
+}
+@media screen and (min-width: 1025px) {
+  #device.desktop {
+    display: block;
+  }
+}
+@media screen and (max-width: 565px) {
+  #content.resume .blocks {
+    float: left;
+    width: 100%;
+    margin: 0 0 1em 0;
+  }
+}
+@media screen and (max-width: 895px) {
+  #content .col1 {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: .5em;
+    margin: 0%;
+    background-color: #eee;
+    clear: left;
+    margin-bottom: 1em;
+    border-radius: 5px;
+  }
+  #content .col2 {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: .5em;
+    margin: 0%;
+    background-color: #eee;
+    margin-bottom: 1em;
+    border-radius: 5px;
+  }
+  #content .flag {
+    background: #b4d92a;
+  }
+}
+@media printer {
+  h2,
+  h3 {
+    padding-left: 0em;
+  }
+}
