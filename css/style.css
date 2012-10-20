@@ -87,27 +87,27 @@ body {
 #footer p {
   text-align: right;
 }
-#device {
+.device {
   float: right;
   color: #bbbbbb;
   font-size: 0.8125em;
   /* 14 / 16*/
 }
-#device.desktop {
+.desktop {
   display: none;
   padding: .4em 0.5em .4em 2.5em;
   background: url('../images/175-macbook.png');
   background-position: 1% 50%;
   background-repeat: no-repeat;
 }
-#device.mobile {
+.mobile {
   display: none;
   padding: .4em 0.5em .4em 2em;
   background: url('../images/32-iphone.png');
   background-position: 1% 50%;
   background-repeat: no-repeat;
 }
-#device.tablet {
+.tablet {
   display: none;
   padding: .4em 0.5em .4em 2.5em;
   background: url('../images/176-ipad.png');
@@ -231,19 +231,19 @@ ul.aboutMe li.role {
   #nav {
     padding-right: 0px;
   }
-  #device.mobile {
+  .mobile {
     display: block;
     font-size: 0.75em;
     /* 12 / 16*/
   }
 }
 @media screen and (min-width: 481px) and (max-width: 1024px) {
-  #device.tablet {
+  .tablet {
     display: block;
   }
 }
 @media screen and (min-width: 1025px) {
-  #device.desktop {
+  .desktop {
     display: block;
   }
 }

@@ -103,34 +103,34 @@ body {
 	}
 }
 
-#device {
+.device {
 	float:right;
 	color: @font-color-device;
 	font-size: 0.8125em; /* 14 / 16*/	
-	
-	&.desktop {
-		display: none;
-		padding: .4em 0.5em .4em 2.5em;
-		background: url('../images/175-macbook.png');
-		background-position: 1% 50%;
-		background-repeat: no-repeat;
-	}
-	&.mobile {
-		display: none;
-		padding: .4em 0.5em .4em 2em;
-		background: url('../images/32-iphone.png');
-		background-position: 1% 50%;
-		background-repeat: no-repeat;
-	}
-	&.tablet {
-		display: none;
-		padding: .4em 0.5em .4em 2.5em;
-		background: url('../images/176-ipad.png');
-		background-position: 1% 50%;
-		background-repeat: no-repeat;
-	}
-
+}	
+.desktop {
+	display: none;
+	padding: .4em 0.5em .4em 2.5em;
+	background: url('../images/175-macbook.png');
+	background-position: 1% 50%;
+	background-repeat: no-repeat;
 }
+.mobile {
+	display: none;
+	padding: .4em 0.5em .4em 2em;
+	background: url('../images/32-iphone.png');
+	background-position: 1% 50%;
+	background-repeat: no-repeat;
+}
+.tablet {
+	display: none;
+	padding: .4em 0.5em .4em 2.5em;
+	background: url('../images/176-ipad.png');
+	background-position: 1% 50%;
+	background-repeat: no-repeat;
+}
+
+
 
 #wrapper {
 	margin: 10px auto 0 auto;
@@ -250,19 +250,16 @@ ul.aboutMe li {
 /* media */
 @media screen and (max-width: 480px) {
 	#nav {padding-right: 0px}	
-	#device {	
-		&.mobile {display: block;font-size: 0.75em; /* 12 / 16*/	}		
-	}
+	.mobile {display: block;font-size: 0.75em; /* 12 / 16*/	}		
+	
 }
 @media screen and (min-width: 481px) and (max-width: 1024px) {
-	#device {	
-		&.tablet {display: block}
-	}
+	.tablet {display: block}
+	
 }
 @media screen and (min-width: 1025px) {
-	#device {	
-		&.desktop {display: block}
-	}
+	.desktop {display: block}
+	
 }
 
 @media screen and (max-width: 565px) {
