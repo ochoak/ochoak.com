@@ -21,5 +21,5 @@ $.fn.writePhone = function (prefix,number){
 
 $(function(){	
 	$("a.mail").writeMail("inaki.lanz","ochoak.com");
-	$("span.phone").writePhone("34","654756569");
+	$("span.phone").writePhone("34","654 756 569");
 });
