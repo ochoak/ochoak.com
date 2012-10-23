@@ -1,3 +1,4 @@
+/*@color-flag: #FBF5CD;*/
 h1 {
   margin: 0;
   padding: 0;
@@ -48,11 +49,12 @@ h3.skills {
 }
 body {
   background-color: #ffffff;
+  background: url('../images/bg.gif');
   margin: 0;
   padding: 0;
 }
 #nav {
-  padding: .75em 1.5em;
+  padding: .75em 1.5em .5em 1em;
   background-color: #000;
   overflow: hidden;
 }
@@ -123,7 +125,7 @@ body {
 #content {
   overflow: hidden;
   padding: 20px 20px 0px 20px;
-  color: #333333;
+  color: #444444;
 }
 #content a {
   color: #0088cc;
@@ -142,19 +144,31 @@ pseudo grid:
   width: 18%;
   padding: .5em;
   margin-right: 0%;
-  background-color: #eee;
+  background-color: #F4F4F4;
+  border: solid 2px #ffffff;
   clear: left;
   margin-bottom: 1em;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 0 1px 1px #D6D6D6;
+  -webkit-box-shadow: 0 1px 1px #D6D6D6;
+  -moz-box-shadow: 0 1px 1px #D6D6D6;
 }
 #content .col2 {
   float: right;
   width: 78%;
   padding: .5em;
   margin-left: 0%;
-  background-color: #eee;
+  background-color: #F4F4F4;
+  border: solid 2px #ffffff;
   margin-bottom: 1em;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 0 1px 1px #D6D6D6;
+  -webkit-box-shadow: 0 1px 1px #D6D6D6;
+  -moz-box-shadow: 0 1px 1px #D6D6D6;
 }
 #content .flag {
   background: #b4d92a;
@@ -205,17 +219,23 @@ ul.aboutMe li.role {
   font-size: 0.9375em;
   /* 15/16*/
 
-  padding-left: 1em;
+  padding-left: 0em;
 }
 #content.resume ul.aboutMe li {
   padding-left: 0em;
 }
 #content.resume ul.resume {
   background-color: #b4d92a;
+  border: solid 2px #fff;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   padding: .75em;
   float: left;
   width: auto;
+  box-shadow: 0 1px 1px #D6D6D6;
+  -webkit-box-shadow: 0 1px 1px #D6D6D6;
+  -moz-box-shadow: 0 1px 1px #D6D6D6;
 }
 #content.resume ul.resume li {
   font-size: 0.875em;
@@ -265,6 +285,8 @@ ul.aboutMe li.role {
     clear: left;
     margin-bottom: 1em;
     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
   }
   #content .col2 {
     display: block;
@@ -275,6 +297,8 @@ ul.aboutMe li.role {
     background-color: #eee;
     margin-bottom: 1em;
     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
   }
   #content .flag {
     background: #b4d92a;

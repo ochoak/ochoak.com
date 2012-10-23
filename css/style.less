@@ -4,11 +4,12 @@
 @color-header: #000;
 @font-color-header: #fff;
 @color-content: #E0F4FF;
-@font-color-content: #333333;
+@font-color-content: #444;
 @font-color-link: #0088CC;
 @font-color-device: #bbbbbb;
 
 @color-flag: #B4D92A;
+/*@color-flag: #FBF5CD;*/
 
 @color-box-a: #DB5029;
 @color-box-b: #65654D;
@@ -58,6 +59,7 @@ h3 {
 }
 body {
 	background-color: @color-base;
+	background: url('../images/bg.gif');
 	margin:0;
 	padding:0;
 }
@@ -65,7 +67,7 @@ body {
 
 
 #nav {
-	padding: .75em 1.5em;
+	padding: .75em 1.5em .5em 1em;
 	background-color: #000;
 	overflow: hidden;
 	
@@ -163,10 +165,16 @@ pseudo grid:
 		width: 18%;
 		padding: .5em;
 		margin-right: 0%;
-		background-color: #eee;
+		background-color: #F4F4F4;
+		border: solid 2px #ffffff;
 		clear:left;
 		margin-bottom: 1em;
 		border-radius: 5px;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		box-shadow:0 1px 1px #D6D6D6;
+		-webkit-box-shadow: 0 1px 1px #D6D6D6;
+		-moz-box-shadow: 0 1px 1px #D6D6D6;
 
 	}
 	.col2 {
@@ -174,9 +182,15 @@ pseudo grid:
 		width: 78%;
 		padding: .5em;
 		margin-left: 0%;
-		background-color: #eee;
+		background-color: #F4F4F4;
+		border: solid 2px #ffffff;
 		margin-bottom: 1em;
 		border-radius: 5px;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;	
+		box-shadow:0 1px 1px #D6D6D6;	
+		-webkit-box-shadow: 0 1px 1px #D6D6D6;
+		-moz-box-shadow: 0 1px 1px #D6D6D6;
 	}
 	.flag {
 		background: @color-flag;
@@ -224,7 +238,7 @@ ul.aboutMe li {
 
 	ul li {
 		font-size: 0.9375em;/* 15/16*/
-		padding-left:1em;		
+		padding-left:0em;		
 	}
 	
 	ul.aboutMe li{
@@ -232,10 +246,16 @@ ul.aboutMe li {
 	}
 	ul.resume {
 		background-color: @color-flag;
+		border: solid 2px #fff;
 		border-radius: 5px;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
 		padding: .75em;
 		float:left;
-		width: auto;		
+		width: auto;	
+		box-shadow: 0 1px 1px #D6D6D6;
+		-webkit-box-shadow: 0 1px 1px #D6D6D6;
+		-moz-box-shadow: 0 1px 1px #D6D6D6;
 	}
 	ul.resume li {
 		font-size: 0.875em;/* 15/16*/
@@ -243,6 +263,7 @@ ul.aboutMe li {
 		background: url('../images/icono-mini-archivo-pdf.gif');
 		background-position: left center;
 		background-repeat: no-repeat;
+
 	}
 
 }
@@ -284,6 +305,8 @@ ul.aboutMe li {
 			clear:left;
 			margin-bottom: 1em;
 			border-radius: 5px;
+			-webkit-border-radius:5px;
+			-moz-border-radius:5px;
 
 		}
 		.col2 {
@@ -295,6 +318,8 @@ ul.aboutMe li {
 			background-color: #eee;
 			margin-bottom: 1em;
 			border-radius: 5px;
+			-webkit-border-radius:5px;
+			-moz-border-radius:5px;
 		}
 		.flag {
 			background: @color-flag;
